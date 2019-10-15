@@ -16,7 +16,8 @@
 		E3D3600123544D310061FE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D3600023544D310061FE0E /* Assets.xcassets */; };
 		E3D3600423544D310061FE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D3600223544D310061FE0E /* LaunchScreen.storyboard */; };
 		E3D3600723544D310061FE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D3600623544D310061FE0E /* main.m */; };
-		E3ED9DE92355A03400E2C620 /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ED9DE82355A03400E2C620 /* IJKMediaFrameworkWithSSL.framework */; };
+		E3ED9DEA2355A21700E2C620 /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ED9DE82355A03400E2C620 /* IJKMediaFrameworkWithSSL.framework */; };
+		E3ED9DEB2355A21700E2C620 /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E3ED9DE82355A03400E2C620 /* IJKMediaFrameworkWithSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4B93D5C9218134493BA5B08 /* libPods-IJKPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A1EC74953EA40B88EB786C /* libPods-IJKPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E3ED9DEB2355A21700E2C620 /* IJKMediaFrameworkWithSSL.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3ED9DE92355A03400E2C620 /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
+				E3ED9DEA2355A21700E2C620 /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
 				E3AF32942354835B00AF56C4 /* libc++.tbd in Frameworks */,
 				E3AF32932354835100AF56C4 /* libz.tbd in Frameworks */,
 				E4B93D5C9218134493BA5B08 /* libPods-IJKPlayer.a in Frameworks */,
